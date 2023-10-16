@@ -2,12 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class QuitGameScript : MonoBehaviour
 {
-    
+
     public void QuitGame()
     {
         Application.Quit();
-        Debug.Log("РљРЅРѕРїРєР° РІС‹С…РѕРґР° РЅР°Р¶Р°С‚Р°");
+        Debug.Log("Кнопка выхода нажата");
     }
 }
